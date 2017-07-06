@@ -1,0 +1,18 @@
+server:
+  port: 52000
+
+swagger:
+  enabled: true
+  contact-email: guenoun.y@sfeir.com
+  contact-name: Youssef Guenoun
+  security:
+    enabled: false
+  enable-try-out-methods: true
+  include-patterns: ^(?!.*admin).*$
+
+
+info:
+ component: store-service
+ stage: step19-solution
+ topic: config server
+ version: 1.1
